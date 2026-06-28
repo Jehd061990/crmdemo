@@ -246,7 +246,7 @@ export default function DashboardPage() {
             </div>
           </header>
 
-          <section className="grid gap-6 xl:grid-cols-[1.9fr_1fr]">
+          <section className="grid gap-6">
             <div className="space-y-6">
               <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
                 {kpiCards.map((card) => (
